@@ -1,0 +1,169 @@
+/* line 39, sass/base.scss */
+body {
+  font-family: helvetica;
+}
+
+/* line 43, sass/base.scss */
+#header-wrapper {
+  height: 135px;
+  background: #2F94B2;
+  text-align: center;
+}
+/* line 47, sass/base.scss */
+#header-wrapper h2 {
+  padding-top: 20px;
+}
+
+/* line 52, sass/base.scss */
+#carousel-container {
+  background: #FF739C;
+  height: 200px;
+}
+
+/* line 59, sass/base.scss */
+.page {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eaeaea;
+}
+/* line 12, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 66, sass/base.scss */
+.col-main > .widget {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.69492%;
+}
+
+/* line 72, sass/base.scss */
+#header-wrapper,
+#carousel-container,
+.footer-before-container {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  *zoom: 1;
+  margin-bottom: 1.69492%;
+}
+/* line 38, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+#header-wrapper:after,
+#carousel-container:after,
+.footer-before-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 80, sass/base.scss */
+.footer-before-container {
+  background: #5DD9FF;
+  text-align: center;
+  position: 20px;
+  height: 100px;
+}
+
+/* line 88, sass/base.scss */
+.banner-boxes > div {
+  width: 23.72881%;
+  float: left;
+  background: #CCC136;
+  height: 100px;
+}
+/* line 66, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+.banner-boxes > div:nth-child(4n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+.banner-boxes > div:nth-child(4n + 2) {
+  margin-left: 25.42373%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+.banner-boxes > div:nth-child(4n + 3) {
+  margin-left: 50.84746%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+.banner-boxes > div:nth-child(4n + 4) {
+  margin-left: 76.27119%;
+  margin-right: -100%;
+  clear: none;
+}
+
+/* line 95, sass/base.scss */
+.products-grid {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 98, sass/base.scss */
+.products-grid > li {
+  width: 16.66667%;
+  float: left;
+  margin-right: 4.16667%;
+  height: 100px;
+  list-style-type: none;
+  background: #2F94B2;
+}
+/* line 103, sass/base.scss */
+.products-grid > li:nth-child(5) {
+  float: right;
+  margin-right: 0;
+}
+
+/* line 110, sass/base.scss */
+.brand-boxes > div {
+  width: 11.76471%;
+  float: left;
+  margin-right: 2.94118%;
+  height: 100px;
+  background: #5DD9FF;
+}
+/* line 114, sass/base.scss */
+.brand-boxes > div:nth-child(7) {
+  float: right;
+  margin-right: 0;
+}
+
+/* line 121, sass/base.scss */
+.bottom-container > div {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  padding: 20px;
+  background: #CCC136;
+}
+/* line 125, sass/base.scss */
+.bottom-container > div:nth-child(4) {
+  float: right;
+  margin-right: 0;
+}
+
+/* line 133, sass/base.scss */
+.copyrights-block ul > li {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  padding: 10px 0;
+  list-style-type: none;
+}
+/* line 137, sass/base.scss */
+.copyrights-block ul > li:nth-child(2) {
+  float: right;
+  margin-right: 0;
+}
