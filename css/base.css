@@ -34,7 +34,7 @@ body {
   clear: both;
 }
 
-/* line 66, sass/base.scss */
+/* line 68, sass/base.scss */
 .col-main > .widget {
   clear: both;
   width: 100%;
@@ -44,36 +44,30 @@ body {
   margin-bottom: 1.69492%;
 }
 
-/* line 72, sass/base.scss */
+/* line 74, sass/base.scss */
 #header-wrapper,
 #carousel-container,
+.main-container,
 .footer-before-container {
   clear: both;
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
-  *zoom: 1;
+  clear: both;
+  display: block;
   margin-bottom: 1.69492%;
 }
-/* line 38, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
-#header-wrapper:after,
-#carousel-container:after,
-.footer-before-container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* line 80, sass/base.scss */
+/* line 84, sass/base.scss */
 .footer-before-container {
   background: #5DD9FF;
   text-align: center;
-  position: 20px;
+  padding: 20px;
   height: 100px;
 }
 
-/* line 88, sass/base.scss */
+/* line 93, sass/base.scss */
 .banner-boxes > div {
   width: 23.72881%;
   float: left;
@@ -106,12 +100,12 @@ body {
   clear: none;
 }
 
-/* line 95, sass/base.scss */
+/* line 100, sass/base.scss */
 .products-grid {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 98, sass/base.scss */
+/* line 103, sass/base.scss */
 .products-grid > li {
   width: 16.66667%;
   float: left;
@@ -120,13 +114,13 @@ body {
   list-style-type: none;
   background: #2F94B2;
 }
-/* line 103, sass/base.scss */
+/* line 108, sass/base.scss */
 .products-grid > li:nth-child(5) {
   float: right;
   margin-right: 0;
 }
 
-/* line 110, sass/base.scss */
+/* line 115, sass/base.scss */
 .brand-boxes > div {
   width: 11.76471%;
   float: left;
@@ -134,13 +128,13 @@ body {
   height: 100px;
   background: #5DD9FF;
 }
-/* line 114, sass/base.scss */
+/* line 119, sass/base.scss */
 .brand-boxes > div:nth-child(7) {
   float: right;
   margin-right: 0;
 }
 
-/* line 121, sass/base.scss */
+/* line 127, sass/base.scss */
 .bottom-container > div {
   width: 23.72881%;
   float: left;
@@ -148,13 +142,13 @@ body {
   padding: 20px;
   background: #CCC136;
 }
-/* line 125, sass/base.scss */
+/* line 131, sass/base.scss */
 .bottom-container > div:nth-child(4) {
   float: right;
   margin-right: 0;
 }
 
-/* line 133, sass/base.scss */
+/* line 139, sass/base.scss */
 .copyrights-block ul > li {
   width: 49.15254%;
   float: left;
@@ -162,8 +156,64 @@ body {
   padding: 10px 0;
   list-style-type: none;
 }
-/* line 137, sass/base.scss */
+/* line 143, sass/base.scss */
 .copyrights-block ul > li:nth-child(2) {
+  float: right;
+  margin-right: 0;
+}
+
+/* line 150, sass/base.scss */
+.col-wrapper, .sidebar {
+  background: #dddddd;
+  margin-bottom: 1.69492%;
+}
+
+/* line 155, sass/base.scss */
+.sidebar {
+  height: 717px;
+}
+
+/* line 162, sass/base.scss */
+.col-wrapper {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 165, sass/base.scss */
+.col-wrapper .col-left {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 200px;
+  background: orange;
+  display: block;
+}
+/* line 170, sass/base.scss */
+.col-wrapper .col-left.col-left-first {
+  height: 500px;
+}
+/* line 173, sass/base.scss */
+.col-wrapper .col-left:not(.col-left-first) {
+  clear: left;
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-bottom: 0;
+}
+/* line 179, sass/base.scss */
+.col-wrapper .col-main {
+  width: 74.57627%;
+  float: right;
+  margin-right: 0;
+  background: orange;
+  height: 717px;
+}
+
+/* line 189, sass/base.scss */
+.col-right {
+  width: 15.25424%;
   float: right;
   margin-right: 0;
 }
